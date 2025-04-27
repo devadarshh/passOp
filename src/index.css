@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .myContainer {
+    @apply container px-10 py-16 mx-auto;
+  }
+
+  .table-data {
+    @apply px-3 py-2 border  max-w-24  border-white text-start text-sm lg:text-xl min-h-12;
+  }
+}
